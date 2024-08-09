@@ -1,0 +1,386 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding: 0;
+    background: linear-gradient(to bottom, #ffffff, #f0eae0, #d4c7e2, #ffffff);
+    color: #333;
+    overflow-x: hidden;
+}
+
+
+.header{
+    box-sizing: border-box; /* Memastikan padding dan border termasuk dalam lebar elemen */
+    margin: 0;
+    padding: 0;
+    display: block;
+    background-color:#edcdcd;
+    padding-right: 0%;
+    width: 100%;
+    border-radius: 0 0 60px 60px;
+    padding-left: 0px;
+    box-shadow: 0 10px 30px 0 rgba(0,0,0,0.3); /* Menambahkan shadow di bawah header */
+    box-sizing: border-box;
+}
+
+.header h1{
+    
+    padding-top: 5%;
+    color: #a0958a;
+    font-family:cursive;
+    padding-bottom: 5%;
+    text-align: center;
+    margin: 0px;
+    font-size: 20px;
+}
+
+.content-1{
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    
+}
+
+.content-1 h1{
+    color: #333;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px; 
+}
+
+.content-1 h2{
+    text-align: justify;
+    color: #333;
+    font-size: 18px;
+}
+
+.content-2{
+    margin-top: 15%;
+    background-color: #f0eae0;
+}
+
+.content-2{
+    box-shadow: 0 0px 10px 0 rgba(0,0,0,0.2); /* Menambahkan shadow di bawah header */
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 60px;
+}
+.content-2 h1{
+    text-align: center;
+    padding: 20px;
+    color: #a5a3a3;
+    font-size: 15px;
+}
+
+.memo1{
+    box-shadow: 0 30px 30px 0 rgba(0,0,0,0.5);
+    background-color: #f0eae0 ;
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 40px;
+    margin-bottom: 80px;
+
+}
+.memo1 img{
+    box-shadow: 0 0px 10px 0 rgba(0,0,0,0.2);
+    border-radius: 20px;
+}
+.memo1 h2{
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 13px;
+}
+
+.memo2{
+    box-shadow: 0 30px 30px 0 rgba(0,0,0,0.5);
+    background-color: #eadff6 ;
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 40px;
+    margin-bottom: 80px;
+
+}
+.memo2 img{
+    box-shadow: 0 0px 10px 0 rgba(0,0,0,0.2);
+    border-radius: 20px;
+}
+.memo2 h2{
+    margin-left: 18%;
+    margin-right: 18%;
+    font-size: 13px;
+}
+
+.memo3{
+    box-shadow: 0 30px 30px 0 rgba(0,0,0,0.5);
+    background-color: #cee0e6 ;
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 40px;
+    margin-bottom: 80px;
+}
+.memo3 img{
+    border-radius: 20px;
+    box-shadow: 0 0px 10px 0 rgba(0,0,0,0.2);
+}
+.memo3 h2{
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 13px;
+}
+
+.memo4{
+    box-shadow: 0 30px 30px 0 rgba(0,0,0,0.5);
+    background-color: #ead4d4 ;
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 40px;
+    margin-bottom: 130px;
+}
+.memo4 img{
+    border-radius: 20px;
+    box-shadow: 0 0px 10px 0 rgba(0,0,0,0.2);
+}
+.memo4 h2{
+    margin-left: 18%;
+    margin-right: 18%;
+    font-size: 13px;
+}
+
+.content-3{
+    margin-top: 35%;
+    background-color: #cee0e6;
+    box-shadow: 0 0px 10px 0 rgba(0,0,0,0.2); /* Menambahkan shadow di bawah header */
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 60px;
+}
+.content-3 h1{
+    text-align: center;
+    padding: 20px;
+    color: #a5a3a3;
+    font-size: 15px;
+}
+
+.rmb-1{
+    justify-content: space-between; 
+    display: flex;
+    flex-direction:row-reverse;
+    align-items: center; /* Menyelaraskan elemen secara vertikal di tengah */
+    width: 100%; /* Pastikan lebar container penuh */
+    
+}
+
+.img1{
+    background-color: #f0eae0;
+    border-radius: 35px 0 0 35px;
+    padding: 30px 35px;
+    margin-left: 20px;
+    margin-bottom: 35px;
+    margin-top: 35px;
+    box-shadow: -20px 0 30px 0 rgba(0,0,0,0.2);
+}
+
+.img1 img{
+    border-radius: 30px;
+    margin-right: 0px;
+    margin-left: 10px;
+    width: 100%;
+}
+
+.rmb-1 h2{
+    text-align: center;
+    width: 40%;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 15px;
+}
+
+.rmb-2{
+    
+    display: flex;
+    flex-direction:row;
+    align-items: center; /* Menyelaraskan elemen secara vertikal di tengah */
+    width: 100%; /* Pastikan lebar container penuh */
+}
+
+.img2{
+    background-color: #f0eae0;
+    border-radius: 0 35px 35px 0;
+    padding: 30px 35px;
+    
+    margin-bottom: 35px;
+    margin-top: 35px;
+    box-shadow: 20px 0 30px 0 rgba(0,0,0,0.2);
+}
+
+.img2 img{
+    border-radius: 30px;
+    margin-right: 40px;
+    width: 100%;
+}
+
+.rmb-2 h2{
+    text-align: center;
+    width: 40%;
+    padding-right: 30px;
+    padding-left: 50px;
+    font-size: 15px;
+}
+
+.rmb-3{
+    display: flex;
+    flex-direction:row-reverse;
+    align-items: center; /* Menyelaraskan elemen secara vertikal di tengah */
+    width: 100%; /* Pastikan lebar container penuh */
+}
+
+.img3{
+    background-color: #f0eae0;
+    border-radius: 35px 0 0 35px;
+    padding: 30px 35px;
+    margin-left: 20px;
+    margin-bottom: 35px;
+    margin-top: 35px;
+    box-shadow: -20px 0 30px 0 rgba(0,0,0,0.2);
+}
+
+.img3 img{
+    border-radius: 30px;
+    margin-right: 0px;
+    margin-left: 10px;
+    width: 100%;
+}
+
+.rmb-3 h2{
+    text-align: center;
+    width: 40%;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 15px;
+}
+
+.rmb-4{
+    
+    display: flex;
+    flex-direction:row;
+    align-items: center; /* Menyelaraskan elemen secara vertikal di tengah */
+    width: 100%; /* Pastikan lebar container penuh */
+}
+
+.img4{
+    background-color: #f0eae0;
+    border-radius: 0 35px 35px 0;
+    padding: 30px 35px;
+    
+    margin-bottom: 35px;
+    margin-top: 35px;
+    box-shadow: 20px 0 30px 0 rgba(0,0,0,0.2);
+}
+
+.img4 img{
+    border-radius: 30px;
+    margin-right: 40px;
+    width: 100%;
+}
+
+.rmb-4 h2{
+    text-align: center;
+    width: 40%;
+    padding-right: 30px;
+    padding-left: 50px;
+    font-size: 15px;
+}
+
+.rmb-5{
+    display: flex;
+    flex-direction:row-reverse;
+    align-items: center; /* Menyelaraskan elemen secara vertikal di tengah */
+    width: 100%; /* Pastikan lebar container penuh */
+}
+
+.img5{
+    background-color: #f0eae0;
+    border-radius: 35px 0 0 35px;
+    padding: 30px 35px;
+    margin-left: 20px;
+    margin-bottom: 35px;
+    margin-top: 35px;
+    box-shadow: -20px 0 30px 0 rgba(0,0,0,0.2);
+}
+
+.img5 img{
+    border-radius: 30px;
+    margin-right: 0px;
+    margin-left: 10px;
+    width: 100%;
+}
+
+.rmb-5 h2{
+    text-align: center;
+    width: 40%;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 15px;
+}
+
+.rmb-6{
+    
+    display: flex;
+    flex-direction:row;
+    align-items: center; /* Menyelaraskan elemen secara vertikal di tengah */
+    width: 100%; /* Pastikan lebar container penuh */
+}
+
+.img6{
+    background-color: #f0eae0;
+    border-radius: 0 35px 35px 0;
+    padding: 30px 35px;
+    
+    margin-bottom: 35px;
+    margin-top: 35px;
+    box-shadow: 20px 0 30px 0 rgba(0,0,0,0.2);
+}
+
+.img6 img{
+    border-radius: 30px;
+    margin-right: 40px;
+    width: 100%;
+}
+
+.rmb-6 h2{
+    text-align: center;
+    width: 40%;
+    padding-right: 30px;
+    padding-left: 50px;
+    font-size: 15px;
+}
+
+footer{
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 25%;
+    margin-bottom: 25%;
+    font-size: 15px;
+}
